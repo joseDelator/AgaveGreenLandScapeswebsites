@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.starting-hero{
+    
+ background-image:url('../../public/starting.jpg');
+
+}
+@media (max-width: 500px)  {
+    .starting-hero{
+        background-position: center;
+        background-size: cover;
+        background-image:url('../../public/protrait.jpg');
+       
+       }
+  }
