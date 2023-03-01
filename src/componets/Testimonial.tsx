@@ -17,7 +17,7 @@ const Testimonial = () => {
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary"  />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
-                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked />'s 
+                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked />
                     </div>
                         <p className="text-xl">on Google and Yelp </p>
                         <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
