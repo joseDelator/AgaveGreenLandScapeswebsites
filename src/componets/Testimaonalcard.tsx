@@ -1,8 +1,13 @@
 import React from 'react'
-const Testimaonalcard = ({image, message,  tag}) => {
+interface Props{
+    tag: string, 
+    message:JSX.Element,
+    image:string
+}
+const Testimaonalcard = ({image, message,  tag}:Props) => {
     return (
         <div className="card w-full sm:w-96 h-full bg-base-100 shadow-xl text-neutral">
-        <figure><img src={image.src} alt="Shoes" /></figure>
+        <figure><img src={image} alt="Shoes" /></figure>
         <div className="card-body">
             <h2 className="card-title">
                 <div className="rating">

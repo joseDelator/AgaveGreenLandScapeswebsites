@@ -11,7 +11,7 @@
     .starting-hero{
         background-position: center;
         background-size: cover;
-        background-image:url('../../public/protrait.jpg');
+        background-image:url('../../public/starting.jpg');
        
        }
   }
