@@ -4,14 +4,14 @@
 
 .starting-hero{
     
- background-image:url('../../public/starting.jpg');
+ background-image:url('../../public/starting.webp');
 
 }
 @media (max-width: 500px)  {
     .starting-hero{
         background-position: center;
         background-size: cover;
-        background-image:url('../../public/starting.jpg');
+        background-image:url('../../public/starting.webp');
        
        }
   }

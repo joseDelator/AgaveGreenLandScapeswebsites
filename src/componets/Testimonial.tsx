@@ -1,7 +1,7 @@
 import React from 'react'
-import fss from '../../public/starting.jpg'
-import image from '../../public/image.jpg'
-import dsf from '../../public/grass.jpeg'
+import fss from '../../public/starting.webp'
+import image from '../../public/image.webp'
+import dsf from '../../public/grass.webp'
 import {BsGoogle} from 'react-icons/bs'
 import {FaYelp} from 'react-icons/fa'
 import Testimaonalcard from './Testimaonalcard'
@@ -17,7 +17,7 @@ const Testimonial = () => {
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary"  />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
-                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked />'s
+                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked readOnly/>'s
                     </div>
                         <p className="text-xl">on Google and Yelp </p>
                         <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
@@ -34,19 +34,19 @@ const Testimonial = () => {
                     <p>
                         Couldn’t be happier with the work Agava Green did on our property. 
                         Erik and Enrique were great to work with. The entire crew did a awesome job. Highly recommend!<span 
-                    className="font-bold">- Fabi</span></p>} tag="New"/>     
+                    className="font-bold">- Matthew Woerner</span></p>} tag="New"/>     
             <Testimaonalcard image={image.src} message={ <p>
                     The redisd our whole backyard and it looks incredible. 
                     We asked them to use native plants that were drought resistant and 
                     made some tweaks along the way and they worked with us. 
                     The end result looks amazing. Hard workers and easy to work with and 
                     communicate with. Highly recommend working with them!<span 
-                    className="font-bold">- Fabi</span></p>} tag="New"/>  
+                    className="font-bold">- Melanie Russell</span></p>} tag="New"/>  
             <Testimaonalcard image={fss.src} message={ <p>These guys are amazing! They came out quickly 
                 finished our front and side yard in a day, 
                 which was A LOT of work and in bad shape. Best of all it looks better 
                 than it ever has. I highly recommend them and will be using them again<span 
-                className="font-bold">- Fabi</span></p>} tag="Favorite"/>
+                className="font-bold">- Sarah Hudspeth</span></p>} tag="Favorite"/>
         </div>
       </div>  
     )

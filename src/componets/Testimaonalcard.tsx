@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 interface Props{
     tag: string, 
     message:JSX.Element,
@@ -7,7 +8,9 @@ interface Props{
 const Testimaonalcard = ({image, message,  tag}:Props) => {
     return (
         <div className="card w-full sm:w-96 h-full bg-base-100 shadow-xl text-neutral">
-        <figure><img src={image} alt="Shoes" /></figure>
+        <figure><Image src={image}  width="0"
+    height="0"
+    sizes="100vw" loading="lazy" alt="Sonoma, marin,  " /></figure>
         <div className="card-body">
             <h2 className="card-title">
                 <div className="rating">
@@ -15,7 +18,7 @@ const Testimaonalcard = ({image, message,  tag}:Props) => {
                     <input type="radio" name="rating-1" className="mask mask-star"  />
                     <input type="radio" name="rating-1" className="mask mask-star" />
                     <input type="radio" name="rating-1" className="mask mask-star" />
-                    <input type="radio" name="rating-1" className="mask mask-star" checked />
+                    <input type="radio" name="rating-1" className="mask mask-star" checked readOnly/>
                 </div>
             <div className="badge badge-secondary">{tag}</div>
             </h2>

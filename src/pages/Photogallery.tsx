@@ -1,6 +1,6 @@
 import React from 'react'
-import mainimage from '../../public/starting.jpg'
-import pagen from '../../public/protrait.jpg'
+import mainimage from '../../public/starting.webp'
+import pagen from '../../public/protrait.webp'
 const Photogallery = () => {
   return (
     <div className='w-full h-full  grid rounded-sm   gap-4 md:grid-cols-3 '>

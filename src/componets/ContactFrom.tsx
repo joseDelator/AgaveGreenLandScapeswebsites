@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 const ContactFrom = () => {
     return (
-        <div className="hero min-h-screen bg-base-200" id="Contact" >
+  <div className="hero min-h-screen bg-base-200" id="Contact" >
   <div  className="hero-content flex-col lg:flex-row-reverse ">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl text-primary font-bold">Contact us!</h1>
