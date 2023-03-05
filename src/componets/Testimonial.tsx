@@ -7,7 +7,7 @@ import {FaYelp} from 'react-icons/fa'
 import Testimaonalcard from './Testimaonalcard'
 const Testimonial = () => {
     return (
-        <div className="hero min-h-screen sm:bg-fixed starting-hero" >
+        <div className="hero min-h-screen sm:bg-fixed starting-hero"  id="testimonial">
         <div className="hero-overlay bg-opacity-50"></div>
         <div className="hero-content text-center text-neutral-content grid w-full  lg:grid-cols-3 ">
             <div className="lg:col-span-3"> 
@@ -17,7 +17,7 @@ const Testimonial = () => {
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary"  />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
-                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked />
+                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked />'s
                     </div>
                         <p className="text-xl">on Google and Yelp </p>
                         <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
@@ -46,7 +46,7 @@ const Testimonial = () => {
                 finished our front and side yard in a day, 
                 which was A LOT of work and in bad shape. Best of all it looks better 
                 than it ever has. I highly recommend them and will be using them again<span 
-                className="font-bold">- Fabi</span></p>} tag="New"/>
+                className="font-bold">- Fabi</span></p>} tag="Favorite"/>
         </div>
       </div>  
     )

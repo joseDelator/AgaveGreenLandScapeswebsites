@@ -1,16 +1,12 @@
 import Head from 'next/head'
-import { useRef } from 'react'
-import { Inter } from 'next/font/google'
-import Navbar from '@/componets/Navbar'
+
 import StartHero from '@/componets/StartHero'
 import ValuesHeros from '@/componets/ValuesHeros'
 import Testimonial from '@/componets/Testimonial'
-import Footer from '@/componets/Footer'
 import ContactFrom from '@/componets/ContactFrom'
-const inter = Inter({ subsets: ['latin'] })
+
 
 export default function Home() {
-  const Contactref = useRef(null)
   return (
     <>
       <Head>
@@ -21,13 +17,10 @@ export default function Home() {
         <link rel="icon" href="./agavelogo.ico" />
       </Head>
       <main >
-          <Navbar />
         <StartHero/>  
         <ValuesHeros/>
         <Testimonial/>
         <ContactFrom  />
-        <Footer/>
-        
       </main>
     </>
   )

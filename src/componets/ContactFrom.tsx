@@ -2,8 +2,8 @@ import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 const ContactFrom = () => {
     return (
-        <div className="hero min-h-screen bg-base-200">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero min-h-screen bg-base-200" id="Contact" >
+  <div  className="hero-content flex-col lg:flex-row-reverse ">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl text-primary font-bold">Contact us!</h1>
       <p className="py-6">We are proud to offer a variety of landscaping options for any size project.
@@ -16,7 +16,7 @@ const ContactFrom = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="text" placeholder="email" className="input input-bordered" />
+          <input type="text" placeholder="Email" className="input input-bordered" />
         </div>
         <div className="form-control">
           <label className="label">
