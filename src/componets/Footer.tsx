@@ -12,8 +12,14 @@ const Footer = () => {
   <div>
     <span className="footer-title">Check us out on</span> 
     <div className="grid grid-flow-col gap-4">
-      <a className='btn btn-ghost'><BsGoogle size={24}/></a> 
-      <a className='btn btn-ghost'><FaYelp size={24}/></a>
+    <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
+                        DhB5amoDJcphA%3A1677558555293&source=hp&ei=G4P9Y66YD6qC0PEPheKH4Ag&iflsig=AK50M_UAAAAAY_2RKw8LKpc3uTHK1t6YGaZGIn
+                        QUfU9A&oq=aga&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIICC4QsQMQkQIyBQguEJECMgsILhCDARCxAxCABDILCC4Q1AIQs
+                        QMQgAQyCAguEIAEELEDMgsIABCABBCxAxCDATIICAAQgAQQsQM6BAguECc6EQguEIAEELEDEIMB
+                        EMcBENEDOgsILhCABBCxAxCDAToFCC4QgAQ6BQgAEJECUABY-QJgtgxoAHAAeACAAWmIAaUCkgEDMi4xmAEAoAEB&sclient=gws-wiz#ip=1"
+                        className="btn btn-ghots"><BsGoogle size={25}/></a>
+                        <a href="https://www.yelp.com/biz/agave-green-landscapes-petaluma"
+                        className="btn btn-ghost"><FaYelp size={25}/></a>
     </div>
   </div>
 </footer>

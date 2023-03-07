@@ -1,6 +1,17 @@
 import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
+import emailjs from 'emailjs-com';
 const ContactFrom = () => {
+  function sendEmail(e) {
+    e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
+
+    emailjs.sendForm('service_h7upjm5', 'template_6e74qbd', e.target, 'gwdwOGaTyvmpHBN6G')
+      .then((result) => {
+          console.log(result)  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
     return (
   <div className="hero min-h-screen bg-base-200" id="Contact" >
   <div  className="hero-content flex-col lg:flex-row-reverse ">
@@ -11,7 +22,7 @@ const ContactFrom = () => {
        balance between feasibility, sustainability, and individuality for any landscaping project. </p>
     </div>
     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-      <div className="card-body">
+      <form className="card-body" onSubmit={e =>sendEmail(e)}>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Email</span>
@@ -36,7 +47,7 @@ const ContactFrom = () => {
         <div className="form-control mt-6">
           <button className="btn btn-primary">Submit</button>
         </div>
-      </div>
+      </form>
     </div>
   </div>
 </div>
