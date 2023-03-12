@@ -2,7 +2,7 @@ import React from 'react'
 import { FaPhoneAlt } from 'react-icons/fa'
 import emailjs from 'emailjs-com';
 const ContactFrom = () => {
-  function sendEmail(e) {
+  function sendEmail(e:any) {
     e.preventDefault();    //This is important, i'm not sure why, but the email won't send without it
 
     emailjs.sendForm('service_h7upjm5', 'template_6e74qbd', e.target, 'gwdwOGaTyvmpHBN6G')
@@ -27,19 +27,19 @@ const ContactFrom = () => {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="text" placeholder="Email" className="input input-bordered" />
+          <input type="text" placeholder="Email" className="input input-bordered" required/>
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Name</span>
           </label>
-          <input type="text" placeholder="Name" className="input input-bordered" />
+          <input type="text" placeholder="Name" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Messege</span>
           </label>
-          <textarea className="textarea input-bordered" placeholder="Tell us how we can help you"></textarea>
+          <textarea className="textarea input-bordered" placeholder="Tell us how we can help you" required/>
           <label className="label">
           <a href="tel:+1-707-703-3660" className="btn btn-ghost normal-case text-sm"> Call us <FaPhoneAlt className="m-2"/>(707) 703-3660</a>  
           </label>
