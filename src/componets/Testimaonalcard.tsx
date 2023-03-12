@@ -8,7 +8,7 @@ interface Props{
 const Testimaonalcard = ({image, message,  tag}:Props) => {
     return (
         <div className="card w-full sm:w-96 h-full bg-base-100 shadow-xl text-neutral">
-        <figure><img src={image}loading="lazy" alt="Sonoma, Marin, Napa Yard" /></figure>
+        <figure><Image src={image}  width={400} height={10} alt="Sonoma, Marin, Napa Yard" /></figure>
         <div className="card-body">
             <h2 className="card-title">
                 <div className="rating">
