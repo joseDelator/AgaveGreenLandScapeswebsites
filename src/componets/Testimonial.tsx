@@ -7,8 +7,8 @@ import {FaYelp} from 'react-icons/fa'
 import Testimaonalcard from './Testimaonalcard'
 const Testimonial = () => {
     return (
-        <div className="hero min-h-screen sm:bg-fixed starting-hero"  id="testimonial">
-        <div className="hero-overlay bg-opacity-50"></div>
+        <div className="hero min-h-screen sm:bg-fixed "  id="testimonial">
+
         <div className="hero-content text-center text-neutral-content grid w-full  lg:grid-cols-3 ">
             <div className="lg:col-span-3"> 
             <p className="text-secondary text-4xl">Testimonials</p>
@@ -19,7 +19,7 @@ const Testimonial = () => {
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked readOnly/>'s
                     </div>
-                        <p className="text-xl">on Google and Yelp </p>
+                        <p className="text-xl text-primary">on Google and Yelp </p>
                         <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
                         DhB5amoDJcphA%3A1677558555293&source=hp&ei=G4P9Y66YD6qC0PEPheKH4Ag&iflsig=AK50M_UAAAAAY_2RKw8LKpc3uTHK1t6YGaZGIn
                         QUfU9A&oq=aga&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIICC4QsQMQkQIyBQguEJECMgsILhCDARCxAxCABDILCC4Q1AIQs

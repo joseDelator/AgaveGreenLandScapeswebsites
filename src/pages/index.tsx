@@ -20,8 +20,8 @@ export default function Home() {
       </Head>
       <main >
         <StartHero/>  
-        <ValuesHeros/>
         <Testimonial/>
+        <ValuesHeros/>
         <ContactFrom  />
       </main>
     </>

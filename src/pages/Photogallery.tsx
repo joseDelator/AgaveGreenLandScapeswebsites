@@ -1,6 +1,7 @@
 import React from 'react'
 import mainimage from '../../public/starting.webp'
 import pagen from '../../public/protrait.webp'
+
 const Photogallery = () => {
   return (
     <div className='w-full h-full  grid rounded-sm   gap-4 md:grid-cols-3 '>
@@ -13,7 +14,7 @@ const Photogallery = () => {
         <div className='bg-primary card'>6</div>
         <div className='bg-primary card'>7</div>
         <div className='bg-primary card'>8</div>
-
+   
     </div>
   )
 }

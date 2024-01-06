@@ -5,6 +5,7 @@ import Link from 'next/link'
 const Navbar = () => {
   return (
     <div className="navbar  bg-base-100 bg-opacity-70 sticky top-0 z-50 ">
+      
     <div className="navbar-start">
       <a href="tel:+1-707-703-3660" className="btn btn-ghost normal-case text-sm"><FaPhoneAlt className="m-2"/>(707) 703-3660</a>    
     </div>
@@ -12,7 +13,7 @@ const Navbar = () => {
       <ul className="menu menu-horizontal px-1">
         <li><Link href="/#Contact" scroll={false}>Contact us!</Link></li>
         <li>
-        <Link href="/Photogallery">Project gallary</Link>
+        <Link href="/OurProcess">Our Process</Link>
         </li> 
         <li>
           <Link href="/#testimonial"  scroll={false}>Testimonials</Link>
@@ -34,7 +35,7 @@ const Navbar = () => {
         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link href="/#Contact" scroll={false}>Contact us!</Link></li>
         <li>
-        <Link href="/Photogallery">Project gallary</Link>
+        <Link href="/OurProcess">our Process</Link>
         </li> 
         <li>
           <Link href="/#testimonial"  scroll={false}>Testimonials</Link>
@@ -43,6 +44,7 @@ const Navbar = () => {
       </div>
     </div>
   </div>
+  
   )
 }
 

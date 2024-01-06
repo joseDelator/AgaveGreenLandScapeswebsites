@@ -3,6 +3,8 @@ import Navbar from '@/componets/Navbar'
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { DefaultSeo } from 'next-seo'
+import TopBanner from '@/componets/TopBanner'
+import TopBar from '@/componets/topBar'
 export default function App({ Component, pageProps }: AppProps) {
   return( 
   <> <DefaultSeo
@@ -21,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
       cardType: 'summary_large_image',
   }}
 />
-
+  <TopBar/>
   <Navbar/>
   <Component {...pageProps} />
   <Footer/>
