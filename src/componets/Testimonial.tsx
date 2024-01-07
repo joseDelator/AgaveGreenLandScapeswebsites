@@ -11,14 +11,16 @@ const Testimonial = () => {
 
         <div className="hero-content text-center text-neutral-content grid w-full  lg:grid-cols-3 ">
             <div className="lg:col-span-3"> 
-            <p className="text-secondary text-4xl">Testimonials</p>
+            <p className="text-neutral text-4xl">Testimonials</p>
                     <div className="rating rating-secondary">
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary"  />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
-                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked readOnly/>'s
+                        <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked readOnly/>
+                        <p className="text-neutral text-secondary">'s</p>
                     </div>
+                    
                         <p className="text-xl text-primary">on Google and Yelp </p>
                         <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
                         DhB5amoDJcphA%3A1677558555293&source=hp&ei=G4P9Y66YD6qC0PEPheKH4Ag&iflsig=AK50M_UAAAAAY_2RKw8LKpc3uTHK1t6YGaZGIn

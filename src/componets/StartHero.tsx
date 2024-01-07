@@ -9,7 +9,7 @@ const StartHero = () => {
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
             <p className="mb-5"> Welcome to Agave Green Land Scapes the Hightest qualty Land Scaping in the North Bay.
  </p>
-            <Link href="/Photogallery" className="btn btn-primary">See Gallary </Link>
+            <Link  href="/#Contact" scroll={false} className="btn btn-primary"> Contact Us </Link>
           </div>
         </div>
       </div>  
