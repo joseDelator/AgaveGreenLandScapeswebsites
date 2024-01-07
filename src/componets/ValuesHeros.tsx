@@ -3,7 +3,7 @@ import React from 'react'
 import dsf from '../../public/IMG_0669.webp'
 const ValuesHeros = () => {
     return (
-        <div className="hero min-h-screen bg-base-200">
+        <div className="hero min-h-screen bg-base">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={dsf.src} className=" w-full sm:max-w-sm rounded-lg shadow-2xl" alt='Marin yard' />
           <div>

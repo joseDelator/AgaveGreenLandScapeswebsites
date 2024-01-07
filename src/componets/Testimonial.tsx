@@ -7,7 +7,7 @@ import {FaYelp} from 'react-icons/fa'
 import Testimaonalcard from './Testimaonalcard'
 const Testimonial = () => {
     return (
-        <div className="hero min-h-screen sm:bg-fixed "  id="testimonial">
+        <div className="hero min-h-screen sm:bg-fixed  bg-base-200"  id="testimonial">
 
         <div className="hero-content text-center text-neutral-content grid w-full  lg:grid-cols-3 ">
             <div className="lg:col-span-3"> 
