@@ -38,7 +38,7 @@ const Navbar = () => {
             </li>
             <div className='divider  ' ></div>
             <li>
-              <Link   href="/OurProcess" >Our Process</Link>
+              <Link    href="/OurProcess" >Our Process</Link>
             </li> 
             <div className='divider '></div>
             <li>
@@ -49,9 +49,9 @@ const Navbar = () => {
               <h2 className=" flex items-center gap-4 px-1.5"><span className="">
            </span> Services</h2> 
            <ul>
-            <li><Link href="/LandscapeMangment" className="group"> <span>Landscape Management</span> </Link></li>
-            <li> <a href="/LandScapeDesign" className="group"> <span>LandScape Design</span> </a></li>
-            <li><Link href="/LandscapeContruction" className="group"> <span>Landscape Contruction</span> </Link></li>
+            <li><Link  href="/LandscapeMangment" className="group p-3"> <span>Landscape Management</span> </Link></li>
+            <li> <Link href="/LandScapeDesign" className="group p-3"> <span>LandScape Design</span> </Link></li>
+            <li><Link href="/LandscapeContruction" className="group p-3"> <span>Landscape Contruction</span> </Link></li>
             </ul> 
             </li>
             <div className='divider ' ></div>
