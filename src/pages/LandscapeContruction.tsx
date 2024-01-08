@@ -8,11 +8,8 @@ const LandscapeConstructionServices = () => {
   return (
     <div className="bg-base-200 p-8 text-neutral">
       <h2 className="text-3xl font-bold mb-6 text-center">Landscape Construction</h2>
-
       <div className="mt-6 grid gap-4 items-center">
-        {/* Replace the placeholder URLs with the actual URLs of your images */}
         <Image src={stab} alt="Backyard Napa" className="rounded-md shadow-md mb-4" />
-       
       </div>
       <p className="mb-6">
         Transforming visions into reality, our Landscape Construction Services at <strong>Agave Green Landscapes</strong> are
@@ -22,7 +19,6 @@ const LandscapeConstructionServices = () => {
 
       <div className="mt-6">
         <h3 className="text-xl font-bold mb-4">Our Landscape Construction Capabilities:</h3>
-
         <ul className="list-disc pl-6">
           <li className='mb-3'>
             <strong>Hardscape Construction:</strong> From patios and walkways to retaining walls and outdoor structures,
@@ -59,9 +55,6 @@ const LandscapeConstructionServices = () => {
           </li>
         </ul>
       </div>
-
-
-
       <div className="mt-6 grid grid-cols-2 gap-4">
 
         <Image src={dsf} alt="Artificial grass"className="rounded-md shadow-md mb-4" />
