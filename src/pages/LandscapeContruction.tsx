@@ -9,7 +9,7 @@ const LandscapeConstructionServices = () => {
     <div className="bg-base-200 p-8 text-neutral">
       <h2 className="text-3xl font-bold mb-6 text-center">Landscape Construction</h2>
 
-      <div className="mt-6 grid gap-4">
+      <div className="mt-6 grid gap-4 items-center">
         {/* Replace the placeholder URLs with the actual URLs of your images */}
         <Image src={stab} alt="Backyard Napa" className="rounded-md shadow-md mb-4" />
        

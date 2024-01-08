@@ -1,14 +1,14 @@
 import Image from 'next/image';
 import React from 'react';
 import stab from '../../public/images.jpeg'
-import secondimage from '../../public/IMG_3762.JPG'
+import secondimage from '../../public/IMG_0669.webp'
 const LandscapeManagementExcellence = () => {
   return (
     <div className="bg-base-200 p-8">
       <h2 className="text-3xl font-bold mb-6 text-center">Landscape Management</h2>
-      <div className="mt-6 self-center">
+      <div className="mt-6 items-center">
         {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <Image src={stab} alt="Landscaping Maitance"  className="rounded-md shadow-md mb-4" />
+        <Image src={stab} alt="Landscaping Maitance"  className="rounded-md shadow-md mb-4 items-center" />
        
       </div>
       <p>
