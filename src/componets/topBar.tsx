@@ -5,7 +5,7 @@ function TopBar() {
     <div className="navbar bg-neutral text-neutral-content "> 
     <div className='navbar-start'></div>
     <div className="navbar-center ">
-    <a className="  text-xl">Agave Green Landscapes</a>
+    <div className="  text-xl">Agave Green Landscapes</div>
    
     <TbPlant2 size={40} className="text-primary  p-1"/>
     </div>

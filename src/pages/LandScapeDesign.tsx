@@ -1,5 +1,6 @@
 // LandscapeDesignServices.jsx
-
+import Image from 'next/image';
+import Stab from '../../public/cad-02-22-2807158994.jpg'
 import React from 'react';
 
 const LandscapeDesignServices = () => {
@@ -7,10 +8,10 @@ const LandscapeDesignServices = () => {
     <div className="bg-gray-100 p-8">
       <h2 className="text-3xl font-bold mb-6 text-center">Landscape Design Services</h2>
 
-      <div className="mt-6 grid grid-cols-2 gap-4 ">
+      <div className="mt-6 self-center">
         {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <img src="https://via.placeholder.com/400" alt="Image 1" className="rounded-md shadow-md mb-4" />
-        <img src="https://via.placeholder.com/400" alt="Image 2" className="rounded-md shadow-md mb-4" />
+        <Image src={Stab} alt="Landscape Design"  className="rounded-md shadow-md mb-4" />
+       
       </div>
 
       <p className="mb-6">
@@ -43,12 +44,6 @@ const LandscapeDesignServices = () => {
             implementation.
           </li>
         </ol>
-      </div>
-
-      <div className="mt-6 grid grid-cols-2 gap-4">
-        {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <img src="https://via.placeholder.com/400" alt="Image 3" className="rounded-md shadow-md mb-4" />
-        <img src="https://via.placeholder.com/400" alt="Image 4" className="rounded-md shadow-md mb-4" />
       </div>
 
       <p className="mt-6">

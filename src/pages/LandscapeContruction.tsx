@@ -7,14 +7,13 @@ import other from '../../public/gravelphoto.webp'
 const LandscapeConstructionServices = () => {
   return (
     <div className="bg-base-200 p-8 text-neutral">
-      <h2 className="text-3xl font-bold mb-6 text-center">Landscape Construction Services</h2>
+      <h2 className="text-3xl font-bold mb-6 text-center">Landscape Construction</h2>
 
-      <div className="mt-6 grid grid-cols-2 gap-4">
-
-        <Image src={dsf} alt="Artificial grass"className="rounded-md shadow-md mb-4" />
-        <Image src={other} alt="Backyard Sonoma" className="rounded-md shadow-md mb-4" />
+      <div className="mt-6 grid gap-4">
+        {/* Replace the placeholder URLs with the actual URLs of your images */}
+        <Image src={stab} alt="Backyard Napa" className="rounded-md shadow-md mb-4" />
+       
       </div>
-
       <p className="mb-6">
         Transforming visions into reality, our Landscape Construction Services at <strong>Agave Green Landscapes</strong> are
         dedicated to creating outdoor spaces that seamlessly blend beauty and functionality. With a passion for
@@ -61,12 +60,13 @@ const LandscapeConstructionServices = () => {
         </ul>
       </div>
 
-      <div className="mt-6 grid gap-4">
-        {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <Image src={stab} alt="Backyard Napa" className="rounded-md shadow-md mb-4" />
-       
-      </div>
 
+
+      <div className="mt-6 grid grid-cols-2 gap-4">
+
+        <Image src={dsf} alt="Artificial grass"className="rounded-md shadow-md mb-4" />
+        <Image src={other} alt="Backyard Sonoma" className="rounded-md shadow-md mb-4" />
+      </div>
       <p className="mt-6">
         At <strong>Agave Green Landcapes</strong>, we actively collaborate with cities and counties to promote
         water-saving practices. Take advantage of available rebates for switching to water-efficient landscaping. Let us

@@ -1,9 +1,16 @@
+import Image from 'next/image';
 import React from 'react';
+import stab from '../../public/images.jpeg'
+import secondimage from '../../public/IMG_3762.JPG'
 const LandscapeManagementExcellence = () => {
   return (
     <div className="bg-base-200 p-8">
       <h2 className="text-3xl font-bold mb-6 text-center">Landscape Management</h2>
-
+      <div className="mt-6 self-center">
+        {/* Replace the placeholder URLs with the actual URLs of your images */}
+        <Image src={stab} alt="Landscaping Maitance"  className="rounded-md shadow-md mb-4" />
+       
+      </div>
       <p>
         At <strong>Agave Green Landscapes</strong>, our commitment to creating and maintaining exceptional outdoor spaces
         extends beyond the initial design and construction. We take pride in offering comprehensive landscape management
@@ -39,12 +46,9 @@ const LandscapeManagementExcellence = () => {
       </div>
 
       {/* Image Section */}
-      <div className="mt-8 grid grid-cols-2 gap-4">
+      <div className="mt-6 self-center">
         {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <img src="https://via.placeholder.com/400" alt="Landscape Example 1" className="rounded-md shadow-md" />
-        <img src="https://via.placeholder.com/400" alt="Landscape Example 2" className="rounded-md shadow-md" />
-        <img src="https://via.placeholder.com/400" alt="Landscape Example 3" className="rounded-md shadow-md" />
-        <img src="https://via.placeholder.com/400" alt="Landscape Example 4" className="rounded-md shadow-md" />
+        <Image src={secondimage} alt="Landscaping Maitance"  className="rounded-md shadow-md mb-4" />
       </div>
     </div>
   );
