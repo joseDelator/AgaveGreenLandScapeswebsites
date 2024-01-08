@@ -1,13 +1,11 @@
-
 import React from 'react';
-
 const LandscapeManagementExcellence = () => {
   return (
-    <div className="bg-gray-100 p-8">
-      <h2 className="text-3xl font-bold mb-6">Landscape Management Excellence</h2>
+    <div className="bg-base-200 p-8">
+      <h2 className="text-3xl font-bold mb-6 text-center">Landscape Management</h2>
 
       <p>
-        At <strong>Agave Green Land</strong>, our commitment to creating and maintaining exceptional outdoor spaces
+        At <strong>Agave Green Landscapes</strong>, our commitment to creating and maintaining exceptional outdoor spaces
         extends beyond the initial design and construction. We take pride in offering comprehensive landscape management
         services to ensure the longevity and vibrancy of your investment.
       </p>

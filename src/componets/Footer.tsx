@@ -2,11 +2,14 @@ import React from 'react'
 import {TbPlant2} from 'react-icons/tb'
 import {BsGoogle} from 'react-icons/bs'
 import {FaYelp} from 'react-icons/fa'
+import Link from 'next/link'
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-neutral text-neutral-content">
   <div>
+  <Link  href="/"  className='btn btn-ghost'>
     <TbPlant2  size={55}className="text-primary"></TbPlant2>
+    </Link>
     <p>Agave Green LandScapes<br/>Providing reliable Landscaping since 2000</p>
   </div> 
   <div>
