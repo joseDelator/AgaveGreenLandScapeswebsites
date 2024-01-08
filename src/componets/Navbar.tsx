@@ -31,7 +31,6 @@ const Navbar = () => {
             {/* Sidebar content here */}
             <li className='text-center'>
               Agave Green Landscapes
-              
             </li>
             <div className='divider divider-neutral ' ></div>
             <li>
