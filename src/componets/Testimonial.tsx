@@ -18,7 +18,7 @@ const Testimonial = () => {
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" checked readOnly/>
-                        <p className="text-secondary">'s</p>
+                        <p className=" text-secondary">'s</p>
                     </div>
                     
                         <p className="text-xl text-primary">on Google and Yelp </p>

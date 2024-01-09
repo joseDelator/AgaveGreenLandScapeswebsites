@@ -19,10 +19,10 @@ export default function Home() {
         <link rel="icon" href="./agavelogo.ico" />
       </Head>
       <main >
-        <StartHero/>  
+        <StartHero/>
         <Testimonial/>
         <ValuesHeros/>
-        <ContactFrom  />
+        <ContactFrom/>
       </main>
     </>
   )
