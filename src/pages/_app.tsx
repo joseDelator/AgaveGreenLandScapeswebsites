@@ -7,7 +7,7 @@ import TopBar from '@/componets/topBar'
 export default function App({ Component, pageProps }: AppProps) {
   return( 
   <> <DefaultSeo
-  title="Agave Green Land Scapes"
+  title="Agave Green Landscapes"
   description="Agave Green Landscapes A quality
   landscaper in Sonoma county, Napa county and Marin county"
   openGraph={{

@@ -1,16 +1,17 @@
 import React from 'react'
 import {TbPlant2} from 'react-icons/tb'
 import {BsGoogle} from 'react-icons/bs'
-import {FaYelp} from 'react-icons/fa'
+import {FaYelp,  FaPhoneAlt} from 'react-icons/fa'
 import Link from 'next/link'
 const Footer = () => {
     return (
+      <>
         <footer className="footer p-10 bg-neutral text-neutral-content">
   <div>
   <Link  href="/"  className='btn btn-ghost'>
     <TbPlant2  size={55}className="text-primary"></TbPlant2>
     </Link>
-    <p>Agave Green LandScapes<br/>Providing reliable Landscaping since 2000</p>
+    <p>Agave Green Landscapes<br/>Providing reliable Landscaping since 2000</p>
   </div> 
   <div>
     <span className="footer-title">Check us out on</span> 
@@ -25,7 +26,19 @@ const Footer = () => {
                         className="btn btn-ghost"><FaYelp size={25}/></a>
     </div>
   </div>
+  
 </footer>
+<footer className="footer px-10 py-4 border-t bg-base- text-base-content border-base-300">
+  <aside className="items-center grid-flow-col">
+    <p><br/>Copyright © 2024 - All right reserved by Agave Green Landscapes</p>
+  </aside> 
+  <nav className="md:place-self-center md:justify-self-end">
+  <a href="tel:+1-707-703-3660" className="btn normal-case text-sm p-1 m-1"><FaPhoneAlt className="m-2"/>(707) 703-3660</a>  
+  <a href="mailto:agavegreenlandscapes@gmail.com" className="btn btn-neutral normal-case text-sm">Agavegreenlandscapes@gmail.com</a>
+  </nav>
+</footer>
+
+</>
     )
 }
 
