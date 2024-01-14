@@ -9,7 +9,7 @@ const Testimonial = () => {
     return (
         <div className="hero min-h-screen sm:bg-fixed  bg-base-200"  id="testimonial">
 
-        <div className="hero-content text-center text-neutral-content grid w-full  lg:grid-cols-3 ">
+        <div className="hero-content text-center  grid w-full  lg:grid-cols-3 ">
             <div className="lg:col-span-3"> 
             <p className="text-neutral text-4xl">Testimonials</p>
                     <div className="rating rating-secondary">
@@ -27,9 +27,9 @@ const Testimonial = () => {
                         QUfU9A&oq=aga&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIICC4QsQMQkQIyBQguEJECMgsILhCDARCxAxCABDILCC4Q1AIQs
                         QMQgAQyCAguEIAEELEDMgsIABCABBCxAxCDATIICAAQgAQQsQM6BAguECc6EQguEIAEELEDEIMB
                         EMcBENEDOgsILhCABBCxAxCDAToFCC4QgAQ6BQgAEJECUABY-QJgtgxoAHAAeACAAWmIAaUCkgEDMi4xmAEAoAEB&sclient=gws-wiz#ip=1"
-                        className="btn btn-circle m-2 btn-info"><BsGoogle/></a>
+                        className="btn btn-circle m-2 btn-info"><BsGoogle size={25}/></a>
                         <a href="https://www.yelp.com/biz/agave-green-landscapes-petaluma"
-                        className="btn btn-circle btn-error"><FaYelp/></a>
+                        className="btn btn-circle btn-error"><FaYelp size={25}/></a>
                      </div>
                    
                 <Testimaonalcard image={dsf.src} message={

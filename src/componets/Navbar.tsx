@@ -1,24 +1,23 @@
 import React from 'react'
 import {FaPhoneAlt} from 'react-icons/fa'
 import {TbPlant2} from 'react-icons/tb'
+import Iconsvg from '../../public/Green Creative Growing Seed For Agriculture, Farming, Gardening Logo 2-optimized.svg'
 import Link from 'next/link'
+import Image from 'next/image'
+Image
 const Navbar = () => {
   return (
     <div className="navbar  bg-base-100  sticky top-0 z-50 ">
-      
     <div className="navbar-start">
     <Link  href="/"  className="btn btn-ghost" scroll={false}>
     <div className="text-s md:text-lg">Agave Green Landscapes</div>
-   <TbPlant2 size={35} className="text-primary  p-1"/>
+    <Image src={Iconsvg}  alt="Agave Green Logo"   height={35} />
    </Link>
-    
     </div>
     <div className="navbar-end ">
-    
     <div className="drawer justify-end">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
-          {/* Page content here */}
           <label htmlFor="my-drawer" className="btn btn-primary drawer-button"> 
            <svg xmlns="http://www.w3.dorg/2000/svg" className="h-5 w-5"
            fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -29,7 +28,6 @@ const Navbar = () => {
         <div className="drawer-side ">
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
           <ul  className="menu p-4 w-80 min-h-full bg-base-200  text-base-content">
-            {/* Sidebar content here */}
             <li className='text-center items-center'>
             <Link    href="/" scroll={false}>Agave Green Landscapes</Link>
             </li>

@@ -18,7 +18,7 @@ const ContactFrom = () => {
   <div className="hero min-h-screen bg-base-200" id="Contact" >
   <div  className="hero-content flex-col lg:flex-row-reverse ">
     <div className="text-center lg:text-left">
-      <h1 className="text-5xl text-primary font-bold">Contact us!</h1>
+      <h1 className="text-5xl text-accent font-bold">Contact us!</h1>
       <p className="py-6">We are proud to offer a variety of landscaping options for any size project.
        We bring to projects our high quality and unique  approach of working with you to find the perfect 
        balance between feasibility, sustainability, and individuality for any landscaping project. </p>
@@ -44,7 +44,7 @@ const ContactFrom = () => {
           <textarea className="textarea input-bordered"
            placeholder="Tell us how we can help you" name="message" required/>
           <label className="label">
-          <a href="tel:+1-707-703-3660" className="btn normal-case text-sm"><FaPhoneAlt className="m-2"/>(707) 703-3660</a>  
+          <a href="tel:+1-707-703-3660" className="btn btn-secondary  normal-case text-sm"><FaPhoneAlt className="m-2"/>(707) 703-3660</a>  
           </label>
           <label className="label">
           <a href="mailto:agavegreenlandscapes@gmail.com" className="btn btn-neutral normal-case text-sm">Agavegreenlandscapes@gmail.com</a>
@@ -61,7 +61,7 @@ const ContactFrom = () => {
   <div className="modal-box">
     <h3 className="font-bold text-lg">We'll reach out to you in the coming days!</h3>
     <p className="py-4">feel free to give us a call </p>
-    <a href="tel:+1-707-703-3660" className="btn  normal-case text-sm p-0">
+    <a href="tel:+1-707-703-3660" className="btn btn-secondary normal-case text-sm p-0">
      <FaPhoneAlt className="m-2"/>(707) 703-3660</a>
     <div className="modal-action">
       <button  onClick={e=>setIsopen(false)} className="btn">Yay!</button>

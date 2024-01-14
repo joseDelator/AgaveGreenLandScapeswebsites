@@ -3,13 +3,15 @@ import {TbPlant2} from 'react-icons/tb'
 import {BsGoogle} from 'react-icons/bs'
 import {FaYelp,  FaPhoneAlt} from 'react-icons/fa'
 import Link from 'next/link'
+import Iconsvg from '../../public/Green Creative Growing Seed For Agriculture, Farming, Gardening Logo 2-optimized.svg'
+import Image from 'next/image'
 const Footer = () => {
     return (
       <>
         <footer className="footer p-10 bg-neutral text-neutral-content">
   <div>
   <Link  href="/"  className='btn btn-ghost'>
-    <TbPlant2  size={55}className="text-primary"></TbPlant2>
+  <Image src={Iconsvg}  alt="Agave Green Logo"   height={55} />
     </Link>
     <p>Agave Green Landscapes<br/>Providing reliable Landscaping since 2000</p>
   </div> 
@@ -28,12 +30,12 @@ const Footer = () => {
   </div>
   
 </footer>
-<footer className="footer px-10 py-4 border-t bg-base- text-base-content border-base-300">
+<footer className="footer  py-4 border-t  text-base-content border-base-300">
   <aside className="items-center grid-flow-col">
     <p><br/>Copyright © 2024 - All right reserved by Agave Green Landscapes</p>
   </aside> 
   <nav className="md:place-self-center md:justify-self-end">
-  <a href="tel:+1-707-703-3660" className="btn normal-case text-sm p-1 m-1"><FaPhoneAlt className="m-2"/>(707) 703-3660</a>  
+  <a href="tel:+1-707-703-3660" className="btn btn-accent normal-case text-sm"><FaPhoneAlt className="m-2"/>(707) 703-3660</a>  
   <a href="mailto:agavegreenlandscapes@gmail.com" className="btn btn-neutral normal-case text-sm">Agavegreenlandscapes@gmail.com</a>
   </nav>
 </footer>

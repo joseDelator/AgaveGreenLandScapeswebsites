@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="robots" content="all" />
         <meta name="google" content="Agave Green Landscapes is quality
          landscaper in Sonoma county, Napa county and Marin county" />
-        <link rel="icon" href="./agavelogo.ico" />
+        <link rel="icon" href="./Green Creative Growing Seed For Agriculture, Farming, Gardening Logo.svg" />
       </Head>
       <main >
         <StartHero/>

@@ -11,7 +11,15 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     
-    themes: ["emerald" ],
+    themes: [{
+      light: {
+        ...require("daisyui/src/theming/themes")["emerald"],
+        primary: "#75d481",
+        secondary: "#00c4cc",
+        neutral: "#32620e",
+        accent:"#ffa629",
+      },
+    }, ],
   },
   theme: {
     extend: {},
