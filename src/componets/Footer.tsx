@@ -23,9 +23,9 @@ const Footer = () => {
                         QUfU9A&oq=aga&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIICC4QsQMQkQIyBQguEJECMgsILhCDARCxAxCABDILCC4Q1AIQs
                         QMQgAQyCAguEIAEELEDMgsIABCABBCxAxCDATIICAAQgAQQsQM6BAguECc6EQguEIAEELEDEIMB
                         EMcBENEDOgsILhCABBCxAxCDAToFCC4QgAQ6BQgAEJECUABY-QJgtgxoAHAAeACAAWmIAaUCkgEDMi4xmAEAoAEB&sclient=gws-wiz#ip=1"
-                        className="btn btn-ghots"><BsGoogle size={25}/></a>
+                        className="btn btn-accent"><BsGoogle size={25}/></a>
                         <a href="https://www.yelp.com/biz/agave-green-landscapes-petaluma"
-                        className="btn btn-ghost"><FaYelp size={25}/></a>
+                        className="btn btn-secondary"><FaYelp size={25}/></a>
     </div>
   </div>
   

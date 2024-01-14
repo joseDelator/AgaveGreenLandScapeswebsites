@@ -11,7 +11,7 @@ const Testimonial = () => {
 
         <div className="hero-content text-center  grid w-full  lg:grid-cols-3 ">
             <div className="lg:col-span-3"> 
-            <p className="text-neutral text-4xl">Testimonials</p>
+            <p className=" text-4xl">Testimonials</p>
                     <div className="rating rating-secondary">
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary" />
                         <input type="radio" name="rating-1" className="mask mask-star bg-secondary"  />
@@ -21,15 +21,15 @@ const Testimonial = () => {
                         <p className=" text-secondary">'s</p>
                     </div>
                     
-                        <p className="text-xl text-primary">on Google and Yelp </p>
+                        <p className="text-xl ">on Google and Yelp </p>
                         <a href="https://www.google.com/search?q=agave+green+landscapes&sxsrf=AJOqlzVl5Y5TysRBkwBbG
                         DhB5amoDJcphA%3A1677558555293&source=hp&ei=G4P9Y66YD6qC0PEPheKH4Ag&iflsig=AK50M_UAAAAAY_2RKw8LKpc3uTHK1t6YGaZGIn
                         QUfU9A&oq=aga&gs_lcp=Cgdnd3Mtd2l6EAMYADIECCMQJzIECCMQJzIECCMQJzIICC4QsQMQkQIyBQguEJECMgsILhCDARCxAxCABDILCC4Q1AIQs
                         QMQgAQyCAguEIAEELEDMgsIABCABBCxAxCDATIICAAQgAQQsQM6BAguECc6EQguEIAEELEDEIMB
                         EMcBENEDOgsILhCABBCxAxCDAToFCC4QgAQ6BQgAEJECUABY-QJgtgxoAHAAeACAAWmIAaUCkgEDMi4xmAEAoAEB&sclient=gws-wiz#ip=1"
-                        className="btn btn-circle m-2 btn-info"><BsGoogle size={25}/></a>
+                        className="btn btn-circle m-2 btn-primary"><BsGoogle size={25}/></a>
                         <a href="https://www.yelp.com/biz/agave-green-landscapes-petaluma"
-                        className="btn btn-circle btn-error"><FaYelp size={25}/></a>
+                        className="btn btn-circle btn-accent"><FaYelp size={25}/></a>
                      </div>
                    
                 <Testimaonalcard image={dsf.src} message={

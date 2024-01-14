@@ -3,7 +3,7 @@ import Link from 'next/link'
 const StartHero = () => {
     return (
         <div className="hero min-h-screen sm:bg-fixed starting-hero" >
-        <div className="hero-overlay bg-opacity-50"></div>
+        <div className="hero-overlay bg-opacity-4"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
