@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="drawer-side ">
           <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
           <ul  className="menu p-4 w-80 min-h-full bg-base-200  text-base-content">
-            <li className='text-center items-center'>
+            <li className='text-center items-center' aria-label="close sidebar">
             <Link    href="/" scroll={false}>Agave Green Landscapes</Link>
             </li>
             <div className='divider divider-neutral ' ></div>
@@ -48,7 +48,7 @@ const Navbar = () => {
               <h2 className=" flex items-center gap-4 px-1.5"><span className="">
            </span> Services</h2> 
            <ul>
-            <li><Link  href="/LandscapeMangment" className="group p-3"> <span>Landscape Management</span> </Link></li>
+            <li><Link  href="/LandscapeMangment" className="group p-3" > <span>Landscape Management</span> </Link></li>
             <li><Link href="/LandScapeDesign" className="group p-3"> <span>LandScape Design</span> </Link></li>
             <li><Link href="/LandscapeContruction" className="group p-3"> <span>Landscape Contruction</span> </Link></li>
             </ul> 
