@@ -53,11 +53,10 @@ const Navbar = () => {
            </span> Services</h2> 
            <ul>
             <li><Link onClick={toggle}  href="/LandscapeMangment" className="group p-3" > <span>Landscape Management</span> </Link></li>
-            <li><Link onClick={toggle} href="/LandScapeDesign" className="group p-3"> <span>LandScape Design</span> </Link></li>
-            <li><Link onClick={toggle} href="/LandscapeContruction" className="group p-3"> <span>Landscape Contruction</span> </Link></li>
+            <li><Link onClick={toggle} href="/LandScapeDesign" className="group p-3"> <span>Landscape Design</span> </Link></li>
+            <li><Link onClick={toggle} href="/LandscapeContruction" className="group p-3"> <span>Landscape Construction</span> </Link></li>
             </ul> 
-            </li>
-            
+            </li> 
             <div className='divider ' ></div>
   <a href="tel:+1-707-703-3660" className="btn btn-ghost underline normal-case text-sm p-1 m-1">
     <FaPhoneAlt className="m-2"/>(707) 703-3660</a>  

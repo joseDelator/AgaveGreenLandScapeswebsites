@@ -61,7 +61,7 @@ const LandscapeConstructionServices = () => {
         <Image src={other} alt="Backyard Sonoma" className="rounded-md shadow-md mb-4" />
       </div>
       <p className="mt-6">
-        At <strong>Agave Green Landcapes</strong>, we actively collaborate with cities and counties to promote
+        At <strong>Agave Green Landscapes</strong>, we actively collaborate with cities and counties to promote
         water-saving practices. Take advantage of available rebates for switching to water-efficient landscaping. Let us
         help you navigate the process and create a sustainable, beautiful outdoor space that aligns with conservation
         initiatives.

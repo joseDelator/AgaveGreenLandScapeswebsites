@@ -21,7 +21,7 @@ Our team conducts a thorough site assessment to gather essential information abo
     <div className="timeline-end mb-10">
       <time className="font-mono italic">2.</time>
       <div className="text-lg font-black">Custom Design Proposal</div>
-      ased on the initial consultation, our skilled designers create a custom landscape proposal that outlines the design concept, 
+      Based on the initial consultation, our skilled designers create a custom landscape proposal that outlines the design concept, 
       material selections, and an estimated timeline.
     </div>
     <hr />

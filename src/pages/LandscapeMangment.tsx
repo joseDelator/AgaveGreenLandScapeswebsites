@@ -8,7 +8,7 @@ const LandscapeManagementExcellence = () => {
       <h2 className="text-3xl font-bold mb-6 text-center">Landscape Management</h2>
       <div className="mt-6 items-center">
         {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <Image src={stab} alt="Landscaping Maitance"  className="rounded-md shadow-md mb-4 items-center" />
+        <Image src={stab} alt="Landscaping Maintenance"  className="rounded-md shadow-md mb-4 items-center" />
        
       </div>
       <p>
@@ -48,7 +48,7 @@ const LandscapeManagementExcellence = () => {
       {/* Image Section */}
       <div className="mt-6 self-center">
         {/* Replace the placeholder URLs with the actual URLs of your images */}
-        <Image src={secondimage} alt="Landscaping Maitance"  className="rounded-md shadow-md mb-4" />
+        <Image src={secondimage} alt="Landscaping Maintenance"  className="rounded-md shadow-md mb-4" />
       </div>
     </div>
   );

@@ -34,11 +34,11 @@ const Testimonial = () => {
                    
                 <Testimaonalcard image={dsf.src} message={
                     <p>
-                        Couldn’t be happier with the work Agava Green did on our property. 
+                        Couldn’t be happier with the work Agave Green did on our property. 
                         Erik and Enrique were great to work with. The entire crew did a awesome job. Highly recommend!<span 
                     className="font-bold">- Matthew Woerner</span></p>} tag="New"/>     
             <Testimaonalcard image={image.src} message={ <p>
-                    The redisd our whole backyard and it looks incredible. 
+                    The redisgn our whole backyard and it looks incredible. 
                     We asked them to use native plants that were drought resistant and 
                     made some tweaks along the way and they worked with us. 
                     The end result looks amazing. Hard workers and easy to work with and 
